@@ -1,20 +1,20 @@
 <p align="center">
-  <a href="https://github.com/nschloe/quadpy"><img alt="quadpy" src="https://nschloe.github.io/quadpy/logo-with-text.svg" width="60%"></a>
+  <a href="https://github.com/sigma-py/quadpy"><img alt="quadpy" src="https://sigma-py.github.io/quadpy/logo-with-text.svg" width="60%"></a>
   <p align="center">Your one-stop shop for numerical integration in Python.</p>
 </p>
 
 [![PyPi Version](https://img.shields.io/pypi/v/quadpy.svg?style=flat-square)](https://pypi.org/project/quadpy/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/quadpy.svg?style=flat-square)](https://pypi.org/project/quadpy/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1173132.svg?style=flat-square)](https://doi.org/10.5281/zenodo.1173132)
-[![GitHub stars](https://img.shields.io/github/stars/nschloe/quadpy.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/quadpy)
+[![GitHub stars](https://img.shields.io/github/stars/sigma-py/quadpy.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/sigma-py/quadpy)
 [![PyPi downloads](https://img.shields.io/pypi/dm/quadpy.svg?style=flat-square)](https://pypistats.org/packages/quadpy)
 
 [![Discord](https://img.shields.io/static/v1?logo=discord&label=chat&message=on%20discord&color=7289da&style=flat-square)](https://discord.gg/hnTJ5MRX2Y)
-[![awesome](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)](https://github.com/nschloe/quadpy)
+[![awesome](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)](https://github.com/sigma-py/quadpy)
 
-[![gh-actions](https://img.shields.io/github/workflow/status/nschloe/quadpy/ci?style=flat-square)](https://github.com/nschloe/quadpy/actions?query=workflow%3Aci)
-[![codecov](https://img.shields.io/codecov/c/github/nschloe/quadpy.svg?style=flat-square)](https://codecov.io/gh/nschloe/quadpy)
-[![LGTM](https://img.shields.io/lgtm/grade/python/github/nschloe/quadpy.svg?style=flat-square)](https://lgtm.com/projects/g/nschloe/quadpy)
+[![gh-actions](https://img.shields.io/github/workflow/status/sigma-py/quadpy/ci?style=flat-square)](https://github.com/sigma-py/quadpy/actions?query=workflow%3Aci)
+[![codecov](https://img.shields.io/codecov/c/github/sigma-py/quadpy.svg?style=flat-square)](https://codecov.io/gh/sigma-py/quadpy)
+[![LGTM](https://img.shields.io/lgtm/grade/python/github/sigma-py/quadpy.svg?style=flat-square)](https://lgtm.com/projects/g/sigma-py/quadpy)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
 
 More than 1500 numerical integration schemes for
@@ -146,19 +146,19 @@ def f(x):
 More examples under [test/examples_test.py](test/examples_test.py).
 
 Read more about the dimensionality of the input/output arrays [in the
-wiki](https://github.com/nschloe/quadpy/wiki#dimensionality-of-input-and-output-arrays).
+wiki](https://github.com/sigma-py/quadpy/wiki#dimensionality-of-input-and-output-arrays).
 
 Advanced topics:
 
-- [Adaptive quadrature](https://github.com/nschloe/quadpy/wiki/Adaptive-quadrature)
-- [Creating your own Gauss scheme](https://github.com/nschloe/quadpy/wiki/Creating-your-own-Gauss-quadrature-in-two-simple-steps)
-- [tanh-sinh quadrature](https://github.com/nschloe/tanh_sinh/)
+- [Adaptive quadrature](https://github.com/sigma-py/quadpy/wiki/Adaptive-quadrature)
+- [Creating your own Gauss scheme](https://github.com/sigma-py/quadpy/wiki/Creating-your-own-Gauss-quadrature-in-two-simple-steps)
+- [tanh-sinh quadrature](https://github.com/sigma-py/tanh_sinh/)
 
 ## Schemes
 
 ### Line segment (_C<sub>1</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/line-segment-gauss-legendre-20.svg" width="50%">
+<img src="https://sigma-py.github.io/quadpy/line-segment-gauss-legendre-20.svg" width="50%">
 
 - [Chebyshev-Gauss](src/quadpy/c1/_chebyshev_gauss.py) (type 1 and 2, arbitrary degree)
 - [Clenshaw-Curtis](src/quadpy/c1/_clenshaw_curtis.py) (arbitrary degree)
@@ -172,7 +172,7 @@ Advanced topics:
 - [Newton-Cotes](src/quadpy/c1/_newton_cotes.py) (open and closed, arbitrary degree)
 
 [See
-here](https://github.com/nschloe/quadpy/wiki/Creating-your-own-Gauss-quadrature-in-two-simple-steps)
+here](https://github.com/sigma-py/quadpy/wiki/Creating-your-own-Gauss-quadrature-in-two-simple-steps)
 for how to generate Gauss formulas for your own weight functions.
 
 Example:
@@ -188,7 +188,7 @@ val = scheme.integrate(lambda x: np.exp(x), [0.0, 1.0])
 
 ### 1D half-space with weight function exp(-r) (_E<sub>1</sub><sup>r</sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e1r-gauss-laguerre-3.svg" width="50%">
+<img src="https://sigma-py.github.io/quadpy/e1r-gauss-laguerre-3.svg" width="50%">
 
 - [Generalized Gauss-Laguerre](src/quadpy/e1r/_gauss_laguerre.py)
 
@@ -204,7 +204,7 @@ val = scheme.integrate(lambda x: x ** 2)
 
 ### 1D space with weight function exp(-r<sup>2</sup>) (_E<sub>1</sub><sup>r<sup>2</sup></sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e1r2-gauss-hermite-8.svg" width="50%">
+<img src="https://sigma-py.github.io/quadpy/e1r2-gauss-hermite-8.svg" width="50%">
 
 - [Gauss-Hermite](src/quadpy/e1r2/_gauss_hermite.py) (arbitrary degree)
 - [Genz-Keister](src/quadpy/e1r2/_genz_keister.py) (1996, 8 nested schemes up to degree 67)
@@ -221,7 +221,7 @@ val = scheme.integrate(lambda x: x ** 2)
 
 ### Circle (_U<sub>2</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/circle-krylov-30.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/circle-krylov-30.svg" width="25%">
 
 - [Krylov](src/quadpy/u2/_krylov.py) (1959, arbitrary degree)
 
@@ -238,7 +238,7 @@ val = scheme.integrate(lambda x: np.exp(x[0]), [0.0, 0.0], 1.0)
 
 ### Triangle (_T<sub>2</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/triangle-dunavant-15.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/triangle-dunavant-15.svg" width="25%">
 
 Apart from the classical centroid, vertex, and seven-point schemes we have
 
@@ -288,7 +288,7 @@ val = scheme.integrate(lambda x: np.exp(x[0]), [[0.0, 0.0], [1.0, 0.0], [0.5, 0.
 
 ### Disk (_S<sub>2</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/disk-hammer-stroud-20.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/disk-hammer-stroud-20.svg" width="25%">
 
 - [Radon](src/quadpy/s2/_radon.py) (1948, degree 5)
 - [Peirce](src/quadpy/s2/_peirce_1956.py) (1956, 3 schemes up to degree 11)
@@ -321,7 +321,7 @@ val = scheme.integrate(lambda x: np.exp(x[0]), [0.0, 0.0], 1.0)
 
 ### Quadrilateral (_C<sub>2</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/quad-maxwell.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/quad-maxwell.svg" width="25%">
 
 - [Maxwell](src/quadpy/c2/_maxwell.py) (1890, degree 7)
 - [Burnside](src/quadpy/c2/_burnside.py) (1908, degree 5)
@@ -377,7 +377,7 @@ to generate the array.
 
 ### 2D space with weight function exp(-r) (_E<sub>2</sub><sup>r</sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e2r-rabinowitz-richter-5.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/e2r-rabinowitz-richter-5.svg" width="25%">
 
 - [Stroud-Secrest](src/quadpy/e2r/_stroud_secrest.py) (1963, 2 schemes up to degree 7)
 - [Rabinowitz-Richter](src/quadpy/e2r/_rabinowitz_richter) (1969, 4 schemes up to degree 15)
@@ -398,7 +398,7 @@ val = scheme.integrate(lambda x: x[0] ** 2)
 
 ### 2D space with weight function exp(-r<sup>2</sup>) (_E<sub>2</sub><sup>r<sup>2</sup></sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e2r2-rabinowitz-richter-3.svg" width="25%">
+<img src="https://sigma-py.github.io/quadpy/e2r2-rabinowitz-richter-3.svg" width="25%">
 
 - [Stroud-Secrest](src/quadpy/e2r2/_stroud_secrest.py) (1963, 2 schemes up to degree 7)
 - [Rabinowitz-Richter](src/quadpy/e2r2/_rabinowitz_richter/) (1969, 5 schemes up to degree 15)
@@ -419,7 +419,7 @@ val = scheme.integrate(lambda x: x[0] ** 2)
 
 ### Sphere (_U<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/sphere.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/sphere.png" width="25%">
 
 - [Albrecht-Collatz](src/quadpy/u3/_albrecht_collatz.py) (1958, 5 schemes up to degree 7)
 - [McLaren](src/quadpy/u3/_mclaren.py) (1963, 10 schemes up to degree 14)
@@ -460,7 +460,7 @@ val = scheme.integrate_spherical(f)
 
 ### Ball (_S<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/ball.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/ball.png" width="25%">
 
 - [Ditkin](src/quadpy/s3/_ditkin.py) (1948, 3 schemes up to degree 7)
 - [Hammer-Stroud](src/quadpy/s3/_hammer_stroud.py) (1958, 6 schemes up to degree 7)
@@ -481,7 +481,7 @@ val = scheme.integrate(lambda x: np.exp(x[0]), [0.0, 0.0, 0.0], 1.0)
 
 ### Tetrahedron (_T<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/tet.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/tet.png" width="25%">
 
 - [Hammer-Marlowe-Stroud](src/quadpy/t3/_hammer_marlowe_stroud.py)
   (1956, 3 schemes up to degree 3, also appearing in [Hammer-Stroud](https://doi.org/10.1090/S0025-5718-1958-0102176-6))
@@ -518,7 +518,7 @@ val = scheme.integrate(
 
 ### Hexahedron (_C<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/hexa.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/hexa.png" width="25%">
 
 - [Sadowsky](src/quadpy/c3/_sadowsky.py) (1940, degree 5)
 - [Tyler](src/quadpy/c3/_tyler.py) (1953, 2 schemes up to degree 5)
@@ -548,7 +548,7 @@ val = scheme.integrate(
 
 ### Pyramid (_P<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/pyra.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/pyra.png" width="25%">
 
 - [Felippa](src/quadpy/p3/_felippa.py) (2004, 9 schemes up to degree 5)
 
@@ -574,7 +574,7 @@ val = scheme.integrate(
 
 ### Wedge (_W<sub>3</sub>_)
 
-<img src="https://nschloe.github.io/quadpy/wedge.png" width="15%">
+<img src="https://sigma-py.github.io/quadpy/wedge.png" width="15%">
 
 - [Felippa](src/quadpy/w3/_felippa.py) (2004, 6 schemes up to degree 6)
 - [Kubatko-Yeager-Maggi](src/quadpy/w3/_kubatko_yeager_maggi.py) (2013, 21 schemes up to
@@ -598,7 +598,7 @@ val = scheme.integrate(
 
 ### 3D space with weight function exp(-r) (_E<sub>3</sub><sup>r</sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e3r.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/e3r.png" width="25%">
 
 - [Stroud-Secrest](src/quadpy/e3r/_stroud_secrest.py) (1963, 5 schemes up to degree 7)
 - [all schemes from the nD space with weight function
@@ -616,7 +616,7 @@ val = scheme.integrate(lambda x: x[0] ** 2)
 
 ### 3D space with weight function exp(-r<sup>2</sup>) (_E<sub>3</sub><sup>r<sup>2</sup></sup>_)
 
-<img src="https://nschloe.github.io/quadpy/e3r2.png" width="25%">
+<img src="https://sigma-py.github.io/quadpy/e3r2.png" width="25%">
 
 - [Stroud-Secrest](src/quadpy/e3r/_stroud_secrest.py) (1963, 7 schemes up to degree 7)
 - [Stroud](src/quadpy/e3r/_stroud.py) (1971, scheme of degree 14)
