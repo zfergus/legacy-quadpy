@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b7d5288eca35b0d08f56bb31a8c8f826e0eaf3a6746ba2fef3745bbba137054e
-size 357
+{
+  "name": "Cools-Haegemans 9-1",
+  "domain": "E2r2",
+  "degree": 9,
+  "test_tolerance": 5.963e-12,
+  "data": {
+    "zero2": [[0.333333333333]],
+    "d4_ab": [
+      [0.77751058491e-1, 0.363453396223e-2],
+      [0.430913982288, 0.540937348258],
+      [0.104031838026e1, 0.210699729303e1]
+    ],
+    "d4_aa": [[0.389548176017e-2], [0.153818900132e1]]
+  }
+}

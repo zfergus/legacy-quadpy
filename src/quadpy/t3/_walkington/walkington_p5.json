@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0be2e0263a7ea70dcee0f94ad533bd88413cb62f680861b5bad34d178e324c23
-size 329
+{
+  "name": "Walkington",
+  "domain": "T3",
+  "degree": 5,
+  "test_tolerance": 2.379e-17,
+  "weight factor": 6.0,
+  "data": {
+    "s31": [
+      [0.0187813209530026418, 0.012248840519393658257],
+      [0.3108859192633006098, 0.092735250310891226402]
+    ],
+    "s22": [[0.007091003462846911073], [0.045503704125649649492]]
+  }
+}

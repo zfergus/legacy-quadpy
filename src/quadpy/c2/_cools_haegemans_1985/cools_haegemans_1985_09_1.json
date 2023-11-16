@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe6ed35b4754e41d3dba626504b498a07d38b4d9c91a4057d07e87d8f5040d4c
-size 486
+{
+  "name": "Cools-Haegemans 1985 9-1",
+  "domain": "C2",
+  "degree": 9,
+  "test_tolerance": 3.497e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "d4_ab": [
+      [3.6113055815076768e-2],
+      [3.4487202536440342e-1],
+      [9.1862044105672225e-1]
+    ],
+    "d4_aa": [
+      [5.3550090231715614e-2, 1.0682807966443945e-2],
+      [6.90880550486344e-1, 9.3965525809683781e-1]
+    ],
+    "d4_a0": [[1.1354099017168726e-1], [4.8892685697436905e-1]]
+  }
+}

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e56f262200c98c45e18b37b99fabfdaff5b9c8c03970272044ae59ce390552e3
-size 317
+{
+  "name": "Strang-Fix/Cowper 5",
+  "domain": "T2",
+  "degree": 4,
+  "test_tolerance": 6.9776435129712184e-16,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "d3_aa": [
+      [1.0995174365532188e-1, 2.2338158967801144e-1],
+      [9.1576213509770715e-2, 4.4594849091596489e-1]
+    ]
+  }
+}

@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf3fc0713b1ea1d4207e57e156ee8bfb5d52950834915dbeba23393b13073e01
-size 181
+{
+  "name": "Witherden-Vincent 2",
+  "domain": "T2",
+  "degree": 2,
+  "test_tolerance": 3.331e-16,
+  "data": {
+    "d3_aa": [[3.3333333333333331e-1], [1.6666666666666669e-1]]
+  }
+}

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c31b62a821a46214d82bbea26ac88ec5678c7ec768cc43de6afed7610fa9110
-size 288
+{
+  "name": "Witherden-Vincent 5",
+  "domain": "T2",
+  "degree": 5,
+  "test_tolerance": 4.025e-16,
+  "data": {
+    "centroid": [[2.2500000000000001e-1]],
+    "d3_aa": [
+      [1.2593918054482714e-1, 1.3239415278850619e-1],
+      [1.0128650732345634e-1, 4.7014206410511511e-1]
+    ]
+  }
+}

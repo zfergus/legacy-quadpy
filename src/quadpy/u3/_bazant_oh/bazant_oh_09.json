@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8adfcf3aa4364232eb2acb22bd3bd3cfb33566237c30f1ba8b384f3a2908a95d
-size 302
+{
+  "name": "Bažant-Oh 9",
+  "domain": "U3",
+  "degree": 9,
+  "test_tolerance": 1.776e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "a1": [[2.652142440931875e-2]],
+    "a2": [[1.993014763119923e-2]],
+    "llm2": [[2.507123674873735e-2], [3.879073040668077e-1]]
+  }
+}

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8bb7aab14105ac6e5a73dca68b77ee9f7d481b88596bd9747ae176f23ae3d486
-size 419
+{
+  "name": "Vioreanu-Rokhlin 4",
+  "domain": "T2",
+  "degree": 7,
+  "test_tolerance": 9.229e-16,
+  "weight factor": 5.0e-1,
+  "data": {
+    "d3_aa": [
+      [6.402666995448952e-2, 1.297596745843783e-1, 2.540178514068437e-1],
+      [5.125308004589e-2, 4.741107940407204e-1, 2.421847563381091e-1]
+    ],
+    "d3_ab": [
+      [1.094312353604775e-1],
+      [7.184833002759293e-1],
+      [2.333468936202704e-1]
+    ]
+  }
+}

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf589f15942f2e980572816eb11a9f626b2a4a0f90822285364da61453e6e7bf
-size 198
+{
+  "name": "Kim-Song 5",
+  "domain": "S2",
+  "degree": 5,
+  "test_tolerance": 4.556e-15,
+  "data": {
+    "zero2": [[0.25]],
+    "d4_ab": [[0.09375], [0.754344479484572], [0.312459714103782]]
+  }
+}

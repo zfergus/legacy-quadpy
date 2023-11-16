@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6075b47e4143638c55a939e5aed66c28ef601690ef1f0953999b8b897c5dce0b
-size 349
+{
+  "name": "Williams-Shunn-Jameson 4",
+  "degree": 5,
+  "domain": "T2",
+  "test_tolerance": 3.122502256758253e-16,
+  "data": {
+    "centroid": [[2.015429868248577e-1]],
+    "d3_aa": [[4.195551878545865e-2], [5.556405873493273e-2]],
+    "d3_ab": [
+      [1.120984094697944e-1],
+      [2.955337173474313e-1],
+      [6.342107415763597e-1]
+    ]
+  }
+}

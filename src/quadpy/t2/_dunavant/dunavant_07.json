@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8123dea047e43efde6c806f6c90e3bf276f3e5faa48a7d21dee060c8986260e2
-size 464
+{
+  "name": "Dunavant 7",
+  "domain": "T2",
+  "degree": 7,
+  "test_tolerance": 1.1024739919439038e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "centroid": [[-1.4957004446768224e-1]],
+    "d3_aa": [
+      [1.7561525743320783e-1, 5.3347235608838445e-2],
+      [2.6034596607903987e-1, 6.5130102902215839e-2]
+    ],
+    "d3_ab": [
+      [7.7113760890257121e-2],
+      [4.869031542531644e-2],
+      [3.128654960048739e-1]
+    ]
+  }
+}

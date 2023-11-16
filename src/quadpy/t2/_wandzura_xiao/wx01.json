@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:638d993e5b9e4153579d32eef4ae9a500366f6ee324a9f99f03d00bd3014ccf5
-size 259
+{
+  "name": "Wandzura-Xiao 1",
+  "domain": "T2",
+  "degree": 5,
+  "test_tolerance": 4.267e-16,
+  "data": {
+    "centroid": [[0.225]],
+    "d3_aa": [
+      [0.13239415278850622, 0.12593918054482714],
+      [0.4701420641051151, 0.10128650732345637]
+    ]
+  }
+}

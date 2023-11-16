@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48c7d1d18df00b85aebab9442efaf7c5fc55ce8f169a0641df3e7ca56cb7cb01
-size 545
+{
+  "name": "Laursen-Gellert 14",
+  "domain": "T2",
+  "degree": 9,
+  "test_tolerance": 2.7811655018723911e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "d3_aa": [
+      [5.1617202569020769e-2, 9.4080073458356145e-2, 2.5993571032319633e-2],
+      [4.8151983478331123e-1, 4.0360397981794005e-1, 4.5189009784376767e-2]
+    ],
+    "d3_ab": [
+      [4.5469538047619329e-2, 3.5351705089199117e-2],
+      [1.3699120126490427e-1, 3.0424361728819835e-2],
+      [2.1829007097138087e-1, 2.2206316553731778e-1]
+    ]
+  }
+}

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:646bdaba9a9234459bd10c71f175dd09573f4b3e796c4d08b8b7bf3ab7570814
-size 221
+{
+  "name": "Shunn-Ham 3",
+  "domain": "T3",
+  "degree": 3,
+  "test_tolerance": 1.903e-16,
+  "data": {
+    "s31": [[0.0476331348432089], [0.0738349017262234]],
+    "s22": [[0.134911243437861], [0.0937556561159491]]
+  }
+}

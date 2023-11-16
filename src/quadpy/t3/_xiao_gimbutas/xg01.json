@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3fdf182e43632cdff2e721c03e884afe291c92f2c9d381f8c0b71ebcebf383a
-size 174
+{
+  "name": "Xiao-Gimbutas 1",
+  "domain": "T3",
+  "degree": 1,
+  "test_tolerance": 2.379e-17,
+  "data": {
+    "plain": [[1.0], [2.5e-1], [2.5e-1], [2.5e-1], [2.5e-1]]
+  }
+}

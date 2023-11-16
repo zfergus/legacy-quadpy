@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf4bd79e4734aba42ae93a1d5ef57039419f3095cee3d7cf6156a78ded4fef51
-size 486
+{
+  "name": "Heo-Xu 17",
+  "domain": "U3",
+  "degree": 17,
+  "test_tolerance": 2.927e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "a1": [[-2.664002664002663e-3]],
+    "a3": [[9.103396603396596e-3]],
+    "llm2": [
+      [1.077783665543779e-2, 9.161945784344655e-3],
+      [3.574067443365933e-1, 6.78598344545847e-1]
+    ],
+    "pq02": [
+      [9.798544911792146e-3, 9.559874446627212e-3],
+      [5.425211851613013e-1, 2.228665097413767e-1]
+    ]
+  }
+}

@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c16c3573728a3f2e8febf27bb25b8fc775cb439f80b7bcfde7c15c3ffeb4f5a6
-size 399
+{
+  "name": "Williams-Shunn-Jameson 5",
+  "degree": 7,
+  "domain": "T2",
+  "test_tolerance": 7.737e-16,
+  "data": {
+    "d3_aa": [
+      [1.791546811194674e-2, 1.277121938457533e-1, 7.620605385370617e-2],
+      [3.587089730389267e-2, 2.417293971024203e-1, 4.743087877649925e-1]
+    ],
+    "d3_ab": [
+      [5.57498087609636e-2],
+      [2.015039089284195e-1],
+      [7.51183601617799e-1]
+    ]
+  }
+}

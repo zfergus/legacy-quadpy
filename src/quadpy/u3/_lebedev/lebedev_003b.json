@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83a0520f2e1cba1dc544d820771fc1a443dfafa452b78022057252a26df39562
-size 144
+{
+  "name": "Lebedev(003b)",
+  "domain": "U3",
+  "degree": 3,
+  "test_tolerance": 1.777e-15,
+  "data": {
+    "a2": [[0.0833333333333333]]
+  }
+}

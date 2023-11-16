@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c800739b0a53f96f99d7c0dcad3e70edd3d66fdf3c6e0849eccdb828b1588029
-size 345
+{
+  "name": "Taylor-Wingate-Bos 2",
+  "domain": "T2",
+  "degree": 4,
+  "test_tolerance": 6.9776435129712184e-16,
+  "weight factor": 5.0e-1,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "d3_aa": [
+      [2.1990348731064377e-1, 4.4676317935602289e-1],
+      [9.1576213509770715e-2, 4.4594849091596489e-1]
+    ]
+  }
+}

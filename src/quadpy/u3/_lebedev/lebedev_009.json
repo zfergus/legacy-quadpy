@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:195bb88e5734cd57934889f3f6bb0bdab751f9d5f9b789c74e250336207a8ef6
-size 301
+{
+  "name": "Lebedev(009)",
+  "domain": "U3",
+  "degree": 9,
+  "test_tolerance": 2.616e-15,
+  "comments": ["precision improved with quadpy-optimize"],
+  "data": {
+    "a1": [[9.523809523809493e-3]],
+    "a3": [[3.214285714285712e-2]],
+    "pq0": [[2.857142857142858e-2], [1.520433619923482e-1]]
+  }
+}
